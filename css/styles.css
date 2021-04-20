@@ -1,0 +1,39 @@
+@import url('./slider-toggle.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+	--Linear-Gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+	/*neutral*/
+	--Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+	--Light-Grayish-Blue: hsl(234, 14%, 74%);
+	--Grayish-Blue: hsl(233, 13%, 49%);
+	--Dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+body {
+	background-color: var(--Very-Light-Grayish-Blue);
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------
+  SECTION 1
+-----------*/
+.section1 {
+	border: solid;
+	padding: 4em 3em 3em 3em;
+}
+.our-pricing {
+	font-size: 2em;
+	color: var(--Grayish-Blue);
+	padding-bottom: 1em;
+}
+.time-pricing-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.time-pricing-container div {
+	margin: 0em 0.8em;
+}
