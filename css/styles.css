@@ -14,14 +14,32 @@ body {
 	background-color: var(--Very-Light-Grayish-Blue);
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-position-x: right, left;
+    background-position-y: 0%, 100%;
+}
+main {
+	position: relative;
 }
 
+.top-pattern {
+
+}
 /*-----------
   SECTION 1
 -----------*/
 .section1 {
 	border: solid;
 	padding: 4em 3em 3em 3em;
+	width: 100%;
+	/*
+	background-image: url('../images/bg-top.svg');
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	border: none red;
+	z-index: -1;*/
 }
 .our-pricing {
 	font-size: 2em;
@@ -38,3 +56,42 @@ body {
 	margin: 0em 0.8em;
 	color: var(--Light-Grayish-Blue);
 }
+@media screen and (max-width: 400px) {
+	.section1 {
+		background-position: 10em 0%;
+	}
+}
+
+/*-----------
+  SECTION 2
+-----------*/
+.section2 {
+	display: flex;
+	align-items: center;
+	border: none orange;
+	width: 80%;
+	margin: 0 auto;
+}
+.pricing-container {
+	border: solid;
+	border-radius: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.list {
+	list-style-type: none;
+	padding: 0;
+}
+.list li {
+	border-top: solid 1px #dbddf0;
+}
+.list li:last-child {
+	border-bottom: solid 1px #dbddf0;
+}
+.odd {
+	background-color: white;
+}
+.price {
+	font-size: 3em;
+}
+
