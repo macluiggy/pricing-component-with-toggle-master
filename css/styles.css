@@ -36,4 +36,5 @@ body {
 }
 .time-pricing-container div {
 	margin: 0em 0.8em;
+	color: var(--Light-Grayish-Blue);
 }
