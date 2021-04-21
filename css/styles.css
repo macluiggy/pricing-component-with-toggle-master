@@ -119,6 +119,7 @@ main {
 }
 .even h2 {
 	color: white;
+<<<<<<< HEAD
 }
 .prices {
 	font-size: 4em;
@@ -127,6 +128,16 @@ main {
 .hide {
 	display: none;
 }
+=======
+}
+.price {
+	font-size: 4em;
+	border: none #ee56;
+}
+.hide {
+	display: none;
+}
+>>>>>>> refs/remotes/origin/main
 .show {
 	display: block;
 }
