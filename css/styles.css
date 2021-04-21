@@ -112,33 +112,49 @@ main {
 .even {
 	background: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 	color: white;
-	height: 27em;
+	height: 28em;
 }
 .even button {
 	color: hsl(237, 63%, 64%);
 }
 .even h2 {
 	color: white;
-<<<<<<< HEAD
 }
 .prices {
-	font-size: 4em;
+	font-size: 4vw;
 	border: none #ee56;
 }
 .hide {
 	display: none;
 }
-=======
-}
-.price {
-	font-size: 4em;
-	border: none #ee56;
-}
-.hide {
-	display: none;
-}
->>>>>>> refs/remotes/origin/main
 .show {
 	display: block;
 }
 
+@media screen and (max-width: 800px) {
+	.section2 {
+		flex-direction: column;
+	}
+	.pricing-container {
+		width: 100%;
+		margin-bottom: 10vw;
+	}
+	.prices {
+	font-size: 10vw;
+}
+}
+@media screen and (max-width:400px) {
+	.section2 {
+		width: 90%;
+	}
+	.prices {
+	font-size: 15vw;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-position-x: -140%, left;
+    background-position-y: 0%, 100%;
+}
+}

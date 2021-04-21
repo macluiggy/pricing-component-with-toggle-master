@@ -2,10 +2,10 @@
 	var checkbox = document.querySelector('#checkbox');
 	var anual = document.querySelectorAll('.anual');
 	var mensual = document.querySelectorAll('.mensual');
-	var prices = document.querySelectorAll('.prices');
+	/*var prices = document.querySelectorAll('.prices');*/
 
 	checkbox.addEventListener('input', function () {
-		for(let i = 0, length1 = prices.length; i < length1; i++){
+		for(let i = 0, length1 = anual.length; i < length1; i++){
 			if (checkbox.checked) {
 			// statement
 			anual[i].className = 'show';
