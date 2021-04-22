@@ -3,24 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
-	--Linear-Gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-	/*neutral*/
-	--Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
-	--Light-Grayish-Blue: hsl(234, 14%, 74%);
-	--Grayish-Blue: hsl(233, 13%, 49%);
-	--Dark-Grayish-Blue: hsl(232, 13%, 33%);
+    --Linear-Gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    /*neutral*/
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
 }
+
 body {
-	background-color: var(--Very-Light-Grayish-Blue);
-	font-size: 15px;
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
-	background-repeat: no-repeat, no-repeat;
-	background-position-x: right, left;
+    background-color: var(--Very-Light-Grayish-Blue);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, left;
     background-position-y: 0%, 100%;
 }
+
 main {
-	position: relative;
+    position: relative;
 }
 
 
@@ -28,10 +30,10 @@ main {
   SECTION 1
 -----------*/
 .section1 {
-	border: none red;
-	padding: 4em 3em 3em 3em;
-	width: 100%;
-	/*
+    border: none red;
+    padding: 4em 3em 3em 3em;
+    width: 100%;
+    /*
 	background-image: url('../images/bg-top.svg');
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -39,134 +41,159 @@ main {
 	border: none red;
 	z-index: -1;*/
 }
+
 .our-pricing {
-	font-size: 2em;
-	color: var(--Grayish-Blue);
-	padding-bottom: 1em;
+    font-size: 2em;
+    color: var(--Grayish-Blue);
+    padding-bottom: 1em;
 }
+
 .time-pricing-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .time-pricing-container div {
-	margin: 0em 0.8em;
-	color: var(--Light-Grayish-Blue);
+    margin: 0em 0.8em;
+    color: var(--Light-Grayish-Blue);
 }
+
 @media screen and (max-width: 400px) {
-	.section1 {
-		background-position: 10em 0%;
-	}
+    .section1 {
+        background-position: 10em 0%;
+    }
 }
 
 /*-----------
   SECTION 2
 -----------*/
 .section2 {
-	display: flex;
-	align-items: center;
-	border: none orange;
-	width: 70%;
-	margin: 0 auto;
-	padding-bottom: 3em;
+    display: flex;
+    align-items: center;
+    border: none orange;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3em;
 }
+
 .pricing-container {
-	border: none red;
-	border-radius: 1em;
-	padding: 2em;
-	text-align: center;
-	width: 33.33333%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    border: none red;
+    border-radius: 1em;
+    padding: 2em;
+    text-align: center;
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .pricing-container h2 {
-	font-size: 1em;
-	color: var(--Grayish-Blue);
+    font-size: 1em;
+    color: var(--Grayish-Blue);
 }
+
 .pricing-container button {
-	border-radius: 0.4em;
-	padding: 0.5em 0;
-	border: none;
+    border-radius: 0.4em;
+    padding: 0.5em 0;
+    border: none;
 }
+
 .list {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
+
 .list li {
-	border-top: solid 1px #dbddf0;
-	padding: 1em 0em;
+    border-top: solid 1px #dbddf0;
+    padding: 1em 0em;
 }
+
 .list li:last-child {
-	border-bottom: solid 1px #dbddf0;
+    border-bottom: solid 1px #dbddf0;
 }
+
 .odd {
-	background-color: white;
-	box-shadow: 0px 0px 10px #888888;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888888;
 }
+
 .odd button {
-	background: var(--Linear-Gradient);
-	color: white;
-	border: solid 1px;
+    background: var(--Linear-Gradient);
+    color: white;
+    border: solid 1px;
 }
+
 .odd button:hover {
-	background: white;
-	color: hsl(237, 63%, 64%);
-	border: solid 1px;
+    background: white;
+    color: hsl(237, 63%, 64%);
+    border: solid 1px;
 }
+
 .even {
-	background: linear-gradient( hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-	color: white;
-	height: 28em;
+    background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    height: 28em;
 }
+
 .even button {
-	color: hsl(237, 63%, 64%);
-	border: solid 1px;
+    color: hsl(237, 63%, 64%);
+    border: solid 1px;
 }
+
 .even button:hover {
-	background: hsl(237, 63%, 64%);
-	color: white;
-	border: solid 1px;
+    background: hsl(237, 63%, 64%);
+    color: white;
+    border: solid 1px;
 }
+
 .even h2 {
-	color: white;
+    color: white;
 }
+
 .prices {
-	font-size: 4vw;
-	border: none #ee56;
+    font-size: 4vw;
+    border: none #ee56;
 }
+
 .hide {
-	display: none;
+    display: none;
 }
+
 .show {
-	display: block;
+    display: block;
 }
 
 @media screen and (max-width: 800px) {
-	.section2 {
-		flex-direction: column;
-	}
-	.pricing-container {
-		width: 100%;
-		margin-bottom: 10vw;
-	}
-	.prices {
-	font-size: 10vw;
+    .section2 {
+        flex-direction: column;
+    }
+
+    .pricing-container {
+        width: 100%;
+        margin-bottom: 10vw;
+    }
+
+    .prices {
+        font-size: 10vw;
+    }
 }
-}
+
 @media screen and (max-width:400px) {
-	.section2 {
-		width: 90%;
-	}
-	.prices {
-	font-size: 15vw;
-}
-body {
-	font-family: 'Montserrat', sans-serif;
-	background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
-	background-repeat: no-repeat, no-repeat;
-	background-position-x: -140%, left;
-    background-position-y: 0%, 100%;
-}
+    .section2 {
+        width: 90%;
+    }
+
+    .prices {
+        font-size: 15vw;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: -140%, left;
+        background-position-y: 0%, 100%;
+    }
 }

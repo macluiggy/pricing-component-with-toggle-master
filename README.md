@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-i learned to use javascript to chenge the price between on price and another, using the for statement to iterate between each price and show and hide each price when the switch is pressed.This is the code i used to change the price between annual and monthly:
+I learned to use javascript to change the price between one price and another, using the for statement to iterate between each price and show and hide each price when the switch is pressed.This is the code I used to change the price between annual and monthly:
 
 ```js
 for(let i = 0, length1 = anual.length; i < length1; i++){
@@ -55,11 +55,11 @@ for(let i = 0, length1 = anual.length; i < length1; i++){
 			// statement
 			anual[i].className = 'show';
 			mensual[i].className = 'hide';
-		} else {
-			// statement
-			anual[i].className = 'hide';
-			mensual[i].className = 'show';
-		}
+			} else {
+				// statement
+				anual[i].className = 'hide';
+				mensual[i].className = 'show';
+			}
 		}
 ```
 
